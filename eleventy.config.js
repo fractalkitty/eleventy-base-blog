@@ -57,7 +57,7 @@ export default async function (eleventyConfig) {
 		stylesheet: "pretty-atom-feed.xsl",
 		templateData: {
 			eleventyNavigation: {
-				key: "",
+				key: "Feed",
 				order: 4,
 			},
 		},
@@ -69,7 +69,7 @@ export default async function (eleventyConfig) {
 			language: "en",
 			title: "Mag Pi",
 			subtitle: "A collection of shiny thoughts",
-			base: "https://example.com",
+			base: "https://magpi.netlify.app",
 			author: {
 				name: "Sophia Wood",
 			},

@@ -10,7 +10,7 @@
 /* Theme colors */
 :root {
 		--color-gray-20: #011a21;
-		--color-gray-50: #c0c0c0;
+		--color-gray-50:#011a21;
 		--color-gray-90: #333;
 
 		--background-color: #cbeaf7;
@@ -26,13 +26,13 @@
 @media (prefers-color-scheme: light) {
 		:root {
 				--color-gray-20: #011a21;
-				--color-gray-50: #c0c0c0;
-				--color-gray-90: #dad8d8;
+				--color-gray-50: #011a21;
+				--color-gray-90: #011a21;
 
 				/* --text-color is assigned to --color-gray-_ above */
-				--text-color-link: #1493fb;
-				--text-color-link-active: #6969f7;
-				--text-color-link-visited: #a6a6f8;
+				--text-color-link: #082840;
+				--text-color-link-active: #32516e;
+				--text-color-link-visited: #3f5c6a;
 
 				--background-color: #cbeaf7;
 		}
