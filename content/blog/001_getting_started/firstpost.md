@@ -45,9 +45,9 @@ I also tried using Zed IDE for the first time. I hope to play around with it mor
 - 3.2 miles walk
 - Strength
 - Coffee with a friend
-- Banjo - reviewing repetoire
+- Banjo - reviewing repertoire
 - A scrabble game lost by 1 point
 - yoga
 
 ## Reading
-- "to be taught if fortunate" by Becky Chambers
+- "To Be Taught if Fortunate" by Becky Chambers
