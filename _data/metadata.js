@@ -1,5 +1,5 @@
 export default {
-	title: "The Mag Pi",
+	title: "Mag Pi",
 	url: "https://magpi.me/",
 	language: "en",
 	description: "collecting shiny thoughts",
