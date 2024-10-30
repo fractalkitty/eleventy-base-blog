@@ -41,7 +41,7 @@ I also tried using Zed IDE for the first time. I hope to play around with it mor
 - Kicking acorns
 - Crows chasing hawks as I play
 
-### Other activities
+## Other activities
 - 3.2 miles walk
 - Strength
 - Coffee with a friend
