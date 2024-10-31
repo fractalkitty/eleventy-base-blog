@@ -1,7 +1,7 @@
 ---
 title: Commutative and Pico-8
 description: A cloudy day for learning
-date: 2024-10-01
+date: 2024-10-30
 tags: [mathober,11ty,haiku, pico-8,music,p5js]
 ---
 

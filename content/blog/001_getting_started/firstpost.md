@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: This is my first day starting to organize my journal and projects.
-date: 2024-10-01
+date: 2024-10-29
 tags: [mathober,11ty,zed,haiku]
 ---
 
