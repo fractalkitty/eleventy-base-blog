@@ -23,8 +23,7 @@ export default async function (eleventyConfig) {
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig
 	.addPassthroughCopy({
-			"./public/": "/",
-			"content/blog/**/*.m4a": "/blog/**/*.m4a"
+			"./public/": "/"
 	})
 	.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
@@ -32,7 +31,7 @@ export default async function (eleventyConfig) {
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
 	// Watch content images for the image pipeline.
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg,m4a}");
 
 
 	// Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
