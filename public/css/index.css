@@ -352,3 +352,12 @@ picture img {
 		border-top: 2px solid #5fa9c9;
 		border-bottom: 2px solid #5fa9c9;
 }
+
+.image-small {
+		width: 30%;
+		max-width: 200px;
+		height: auto;
+		object-fit: contain;
+		margin: 0;
+		padding: 0;
+}

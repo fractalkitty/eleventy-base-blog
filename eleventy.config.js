@@ -22,16 +22,18 @@ export default async function (eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig
-		.addPassthroughCopy({
+	.addPassthroughCopy({
 			"./public/": "/",
-		})
-		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+			"content/blog/**/*.m4a": "/blog/**/*.m4a"
+	})
+	.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+
 
 	// Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
 	// Adds the {% css %} paired shortcode
