@@ -1,7 +1,7 @@
 ---
 title: Manifold
 description: A cloudy day for learning
-date: 2024-10-31
+date: 2024-11-01
 tags: [mathober, 11ty, coded poem, music, p5js]
 ---
 
