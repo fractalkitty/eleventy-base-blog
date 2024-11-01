@@ -45,7 +45,7 @@ I played with a mathober sketch to make more polyhedra - do we need a p5js libra
 
 ## Other activities
 - pairing with a friend to break their stuff
-
+- trick-or-treating with a rogue and a wayward traveler.
 
 ## Reading
 - "To Be Taught if Fortunate" by Becky Chambers
