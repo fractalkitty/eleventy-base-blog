@@ -2,29 +2,28 @@
 title: Polyhedra
 description: A cloudy day for learning
 date: 2024-10-31
-tags: [mathober,11ty,haiku, pico-8,music,p5js]
+tags: [mathober, haiku, polyhedra, p5js]
 ---
 
 Today's log:
 
 ## Haiku
+
 <blockquote class="haiku">
 you were warm and loved<br>
 when you passed - now remembered<br>
 a light among trees
 </blockquote>
 
-
 ## Mathober p5.js Sketch
-Just some rotating dynkin diagrams.  <a href= "hhttps://codepen.io/fractalkitty/pen/WNVJBLP" target="_blank" rel="noopener noreferrer"> Code is here.</a>
+
+Just some rotating dynkin diagrams. <a href= "https://codepen.io/fractalkitty/pen/WNVJBLP" target="_blank" rel="noopener noreferrer"> Code is here.</a>
 
 <img src="./lie.png" alt="blueprint design with dynkin diagrams rotating around a center." >
-
 
 ## Polyhedra Library
 
 I played with a mathober sketch to make more polyhedra - do we need a p5js library? There is a start of one in this.
-
 
 <div class="iframe-container">
 	<iframe
@@ -38,17 +37,16 @@ I played with a mathober sketch to make more polyhedra - do we need a p5js libra
 </div>
 <img src="./coding.jpg" alt="black and white of me coding in a goat hat with a crow stuffy" >
 
-
 ## Gratitude
+
 - Budgies on the keyboard
-<img src="./budgabudge.png" alt="A yellow budgie sticker from photo" class="image-small">
+  <img src="./budgabudge.png" alt="A yellow budgie sticker from photo" class="image-small">
 
 ## Other activities
+
 - pairing with a friend to break their stuff
 - trick-or-treating with a rogue and a wayward traveler.
 
 ## Reading
+
 - "To Be Taught if Fortunate" by Becky Chambers
-
-
-

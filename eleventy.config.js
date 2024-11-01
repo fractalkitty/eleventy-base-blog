@@ -7,6 +7,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -18,21 +19,21 @@ export default async function (eleventyConfig) {
 			return false;
 		}
 	});
+	eleventyConfig.addPlugin(syntaxHighlight);
 
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig
-	.addPassthroughCopy({
-			"./public/": "/"
-	})
-	.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+		.addPassthroughCopy({
+			"./public/": "/",
+		})
+		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
 	// Watch content images for the image pipeline.
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg,m4a}");
-
+	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg,m4a,js}");
 
 	// Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
 	// Adds the {% css %} paired shortcode
