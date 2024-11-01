@@ -1,7 +1,7 @@
 ---
-title: Commutative and Pico-8
+title: Polyhedra
 description: A cloudy day for learning
-date: 2024-10-30
+date: 2024-10-31
 tags: [mathober,11ty,haiku, pico-8,music,p5js]
 ---
 
