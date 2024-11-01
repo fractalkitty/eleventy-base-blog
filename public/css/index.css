@@ -361,3 +361,26 @@ picture img {
 		margin: 0;
 		padding: 0;
 }
+.iframe-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 2rem 0;
+}
+
+.responsive-iframe {
+	max-width: 100%;
+	/* Adjust these values based on your needs */
+	width: 800px;
+	height: 450px;
+	border: none;
+}
+
+/* Optional: Add responsive behavior */
+@media (max-width: 850px) {
+	.responsive-iframe {
+		width: 95%;
+		height: 300px;
+	}
+}
